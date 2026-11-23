@@ -1,0 +1,40 @@
+name: nexusstream
+description: "NexusStream - Reproductor IPTV y Catálogo VOD Multiplataforma para Android TV, Móvil y Desktop"
+publish_to: "none"
+version: 1.0.0+16
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  device_info_plus: ^9.1.2
+  wakelock_plus: ^1.1.4
+  openvpn_flutter: ^2.0.0
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  file_selector: ^0.9.2
+  uuid: ^4.3.3
+  media_kit_libs_video: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/banner.png
+    - assets/icono.png
+    - assets/launcher_icon.png
+    - assets/temas/
+    - assets/vpn/
+    - assets/default.ovpn
